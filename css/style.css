@@ -173,8 +173,17 @@ main {
 }
 
 .mic-video {
-    background-color: yellowgreen;
-    flex-basis: 10%;
+    /* background-color: yellowgreen; */
+
+    flex-basis: 11%;
+}
+
+.mic-video i {
+    font-size: 24px;
+}
+
+.mic-video>* {
+    text-align: center;
 }
 
 .videocall-settings {
