@@ -131,7 +131,10 @@ img.on-height {
 main {
     background-color: black;
     overflow-y: auto;
+}
 
+main::-webkit-scrollbar {
+    display: none;
 }
 
 .users-video {
@@ -172,33 +175,45 @@ main {
     align-items: center;
 }
 
+/* Impostazioni microfono e video */
 .mic-video {
     /* background-color: yellowgreen; */
 
     flex-basis: 11%;
 }
 
-.mic-video i {
+.mic-video i,
+.videocall-settings i {
     font-size: 24px;
 }
 
-.mic-video>* {
+.mic-video>*,
+.videocall-settings>* {
     text-align: center;
 }
 
+/* Impostazioni videoconferenza */
 .videocall-settings {
-    background-color: tomato;
+    /* background-color: tomato; */
 
     flex-basis: 40%;
 }
 
+.screen-share-icon i {
+    color: #4bc800;
+}
+
+/* Uscita videoconferenza */
 #end-meeting {
-    background-color: crimson;
+    background-color: #4a4a4a;
 
     flex-basis: 10%;
     justify-content: center;
 }
 
+#end-meeting div {
+    color: #ee0219;
+}
 
 /* DEBUGGER */
 
