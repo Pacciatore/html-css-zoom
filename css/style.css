@@ -18,7 +18,7 @@ img.on-width {
 
 /* Grandezza di tutte le immagini massimo quanto
  il loro rispettivo contenitore sulla base dell'altezza'*/
-.img.on-height {
+img.on-height {
     height: 100%;
 }
 
@@ -65,6 +65,10 @@ img.on-width {
 
 .no-shrink {
     flex-shrink: 0;
+}
+
+.wrap {
+    flex-wrap: wrap;
 }
 
 
@@ -122,16 +126,28 @@ img.on-width {
     align-self: center;
 }
 
+
 /* Schermata video partecipanti */
 main {
     background-color: purple;
+    overflow-y: auto;
+
 }
 
 .users-video {
     background-color: yellow;
 
     flex-basis: 80%;
+    justify-content: center;
+    height: fit-content;
+
     margin: 0 auto;
+}
+
+.user-video {
+    width: calc(100% / 7 - 5px);
+    padding: 10px 5px;
+
 }
 
 
