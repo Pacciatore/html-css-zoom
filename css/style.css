@@ -79,3 +79,85 @@ img.on-width {
 .float-right {
     float: right;
 }
+
+
+
+/* CONTENT */
+
+
+/* Container generale */
+.conference-call {
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* Barra di navigazione superiore */
+.top-bar {
+    background-color: black;
+
+    flex-basis: 10%;
+}
+
+.view-settings {
+    background-color: deepskyblue;
+
+    flex-basis: 15%;
+}
+
+.view-settings>* {
+    background-color: #4a4a4a;
+
+    align-self: center;
+}
+
+/* Schermata video partecipanti */
+main {
+    background-color: purple;
+}
+
+.users-video {
+    background-color: yellow;
+
+    flex-basis: 80%;
+    margin: 0 auto;
+}
+
+
+/* Barra di navigazione inferiore */
+.bottom-bar {
+    background-color: #222222;
+
+    flex-basis: 15%;
+}
+
+.bottom-bar>* {
+    align-items: center;
+}
+
+.mic-video {
+    background-color: yellowgreen;
+    flex-basis: 10%;
+}
+
+.videocall-settings {
+    background-color: tomato;
+
+    flex-basis: 40%;
+}
+
+#end-meeting {
+    background-color: crimson;
+
+    flex-basis: 10%;
+}
+
+
+/* DEBUGGER */
+
+.icon-placeholder {
+    width: 20px;
+    height: 20px;
+
+    background-color: darkslategrey;
+}
