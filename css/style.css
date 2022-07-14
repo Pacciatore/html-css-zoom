@@ -58,7 +58,7 @@ img.on-width {
     flex-grow: 1;
 }
 
-.shrink {
+.no-shrink {
     flex-shrink: 0;
 }
 
