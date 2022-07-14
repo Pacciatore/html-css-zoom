@@ -150,6 +150,7 @@ main {
     background-color: crimson;
 
     flex-basis: 10%;
+    justify-content: center;
 }
 
 
