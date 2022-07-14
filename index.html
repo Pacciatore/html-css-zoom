@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Link CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Link Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Zoom</title>
 </head>
@@ -18,10 +22,16 @@
         <!-- Barra di navigazione superiore -->
         <nav class="top-bar flex row-reverse">
 
-            <div class="view-settings flex space-around">
+            <div class="view-settings flex">
 
-                <div>Speaker View</div>
-                <div class="icon-placeholder"></div>
+                <div>
+                    <i class="fa-solid fa-table-cells"></i>
+                    Speaker View
+                </div>
+
+                <div class="icon-maximize">
+                    <i class="fa-solid fa-maximize"></i>
+                </div>
 
             </div>
 
@@ -39,6 +49,8 @@
         <!-- Barra di navigazione inferiore -->
         <nav class="bottom-bar flex space-between">
 
+            <!-- Area per attivazione e disattivazione microfono
+            e video -->
             <div class="mic-video flex space-around">
 
                 <div class="icon-placeholder"></div>
@@ -47,6 +59,7 @@
 
             </div>
 
+            <!-- Impostazioni della riunione -->
             <div class="videocall-settings flex space-around">
 
                 <div class="icon-placeholder"></div>
@@ -60,6 +73,9 @@
 
             </div>
 
+            <!-- Pulsante di fine riunione.
+            Nel nostro caso non è un pulsante perché non ci serve
+            veramente -->
             <div id="end-meeting" class="flex">
 
                 <div>End meeting</div>
