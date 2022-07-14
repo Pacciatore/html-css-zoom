@@ -129,13 +129,13 @@ img.on-height {
 
 /* Schermata video partecipanti */
 main {
-    background-color: purple;
+    background-color: black;
     overflow-y: auto;
 
 }
 
 .users-video {
-    background-color: yellow;
+    /* background-color: yellow; */
 
     flex-basis: 80%;
     justify-content: center;
@@ -147,7 +147,17 @@ main {
 .user-video {
     width: calc(100% / 7 - 5px);
     padding: 10px 5px;
+    position: relative;
+}
 
+.user-info {
+    position: absolute;
+    bottom: 15px;
+    left: 5px;
+
+    background-color: #8080807f;
+
+    padding: 3px;
 }
 
 
