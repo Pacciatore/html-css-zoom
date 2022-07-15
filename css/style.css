@@ -199,6 +199,10 @@ main::-webkit-scrollbar {
     flex-basis: 40%;
 }
 
+.videocall-settings>div>div {
+    padding-top: 5px;
+}
+
 .screen-share-icon i {
     color: #4bc800;
 }
